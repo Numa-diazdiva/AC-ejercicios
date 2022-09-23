@@ -6,8 +6,6 @@
 
 PIO EQU 30H
 
-
-
 ORG 2000H
   ; Configuro PIO
   MOV AL, 11111101b

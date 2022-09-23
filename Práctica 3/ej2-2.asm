@@ -3,7 +3,7 @@
 
 ; NOTAS: Si no hay loop al final, puede que el procesador termine el programa antes que la impresora termine de Imprimir
 ; - Si no inicializamos el strobe en 0 y por casualidad estaba en 1, podemos perder la impresión del primer caracter (ocurre con este programa)
-PIO EQ 30H
+PIO EQU 30H
 
 ORG 1000H
   MENSAJE DB "ORGANIZACION Y ARQUITECTURA DE COMPUTADORAS"
